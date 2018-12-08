@@ -1,0 +1,26 @@
+.list-view{
+    -fx-background-color: transparent;
+}
+.list-cell{
+    -fx-background-color: transparent;
+    -fx-pref-height: 50;
+    -fx-font-size:15;
+    -fx-text-fill: rgba(255, 255, 255, 0.8);
+}
+.list-cell:filled:even{
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+}
+.list-cell:filled:selected{
+    -fx-background-color: rgba(83, 194, 235, 0.3);
+}
+.scroll-bar{
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical{
+    -fx-pref-width:10px;
+}
+.scroll-bar.thumb{
+    -fx-background-color: rgba(255, 255, 255, 0.4);
+    -fx-background-insets:0,0,0;
+    -fx-background-radius:2em;
+}

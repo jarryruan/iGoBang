@@ -1,0 +1,112 @@
+.content_pane,.background_view{
+    -fx-background-color: black;
+}
+
+.menu_button{
+    -fx-background-color:transparent;
+    -fx-border-color: rgba(255, 255, 255, 0.05);
+    -fx-text-fill: rgba(255, 255, 255, 0.76);
+    -fx-font-size:20;
+    -fx-pref-height: 75;
+    -fx-pref-width: 200;
+}
+.menu_button_background{
+    -fx-fill: white;
+    -fx-stroke-width: 0;
+    -fx-stroke: transparent;
+}
+
+.menu_bar{
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+}
+.dialog_base{
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 10;
+}
+
+.fading_circle{
+    -fx-stroke: transparent;
+}
+
+.title_label{
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.0, 2, 2);
+    -fx-font-size: 32;
+}
+.context_label{
+    -fx-text-fill: rgba(255, 255, 255, 0.74);
+    -fx-font-size: 15;
+    -fx-wrap-text: true;
+}
+
+.game_button{
+    -fx-base: #1a2634;
+    -fx-font-size:20;
+    -fx-text-fill: #b8b8b8;
+    -fx-pref-width:200;
+    -fx-background-radius: 2em;
+}
+.green_button{
+    -fx-base:#49a754;
+    -fx-text-fill:#0c3508;
+}
+.red_button{
+    -fx-base:#b71a1a;
+    -fx-text-fill:#ffdfdf;
+}
+.blue_button{
+    -fx-base: #07617a;
+    -fx-text-fill: #8dcadc;
+}
+.icon_button{
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.0, 2, 2);
+}
+.button_bar{
+    -fx-background-color:rgba(255, 255, 255, 0.2);
+    -fx-background-radius: 10;
+}
+.operation_bar{
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 10;
+}
+.black_pad_background_rectangle{
+    -fx-arc-width: 10;
+    -fx-arc-height: 10;
+    -fx-stroke-width: 5;
+    -fx-stroke: rgba(255, 255, 255, 0.4);
+    -fx-stroke-type: outside;
+    -fx-fill: rgba(0, 0, 0, 0.9);
+}
+.black_pad_text{
+    -fx-font-size:20;
+    -fx-text-fill: rgba(192, 192, 192, 0.8);
+    -fx-alignment: center;
+}
+.chess_board_background{
+    -fx-opacity: 0.5;
+}
+
+.time_display{
+    -fx-alignment: center;
+    -fx-opacity: 0.6;
+}
+.game_text_field{
+    -fx-base:black;
+    -fx-background-color:#212228;
+    -fx-text-fill:white;
+    -fx-font-size:25;
+    -fx-opacity: 0.3;
+}
+.alert_label{
+    -fx-text-fill: red;
+    -fx-font-size: 15;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.6), 10, 0.0, 0, 0);
+}
+
+.game_checkbox{
+    -fx-background-color: transparent;
+    -fx-font-size:15;
+    -fx-text-fill: #c9cdea;
+}

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="iGoBang:jar">
+    <output-path>$PROJECT_DIR$/release</output-path>
+    <root id="archive" name="iGoBang.jar">
+      <element id="module-output" name="iGoBang" />
+    </root>
+  </artifact>
+</component>
